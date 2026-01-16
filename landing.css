@@ -1,0 +1,423 @@
+@font-face {
+    font-family: Genshin;
+    src: url(ja-jp.ttf);
+}
+
+body{
+    background-color: rgb(26, 21, 23);
+    margin: 0px;
+}
+
+.logo{
+    width: 155px;
+    height: 40px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+.divicon{
+    margin-right: 30px;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 8px 30px;
+    font-weight: 300;
+    font-family: Genshin;
+    font-size: medium;
+}
+
+li:hover{
+    cursor: pointer;
+    color: rgb(255, 103, 121);
+    transition: ease-in-out 0.2s;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    box-shadow: 10px 20px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subdiv1{
+    padding: 20px 0px 0px 70px;
+    font-size: 60px;
+    font-family: Genshin;
+    transition: ease-in-out 3s;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.275)
+}
+
+.subdiv1:hover{
+    color: rgb(255, 123, 160);
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sliding{
+    position: relative;
+    width: 750px;
+    margin: auto;
+    max-width: 100000px;
+}
+
+.Himmel{
+    width: 750px;
+    height: 340px;
+    box-shadow: 10px 15px 20px 10px rgba(220, 72, 89, 0.214);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.left{
+width: 40px;
+height: 40px;
+margin-left: 20px;
+border-radius: 40px;
+background-color: white;
+border: none;
+box-shadow: 10px 15px 20px 10px rgba(220, 72, 89, 0.214);
+position: absolute;
+z-index: 10;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+transition: ease-in-out 0.3s;
+}
+
+.left:hover{
+    background-color: rgba(234, 76, 76, 0.593);
+}
+
+.right{
+width: 40px;
+height: 40px;
+border-radius: 40px;
+background-color: white;
+border: none;
+box-shadow: 10px 15px 20px 10px rgba(220, 72, 89, 0.214);
+position: absolute;
+z-index: 10;
+top: 50%;
+transform: translateY(-50%);
+margin-left: 770px;
+cursor: pointer;
+transition: ease-in-out 0.3s;
+}
+
+.right:hover{
+    background-color: rgba(234, 76, 76, 0.593);
+}
+
+.subdiv2{
+    padding: 15px 70px 60px 30px;
+    text-align: right;
+    font-size: 45px;
+    font-family: Genshin;
+    color: white;
+    transition: ease-in-out 3s;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.275)
+}
+
+.subdiv2:hover{
+    color: rgb(255, 123, 160);
+}
+
+.FrierenGIF{
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 620px;
+    height: 300px;
+    box-shadow: 10px 15px 20px 10px rgba(220, 72, 89, 0.218);
+    border-radius: 10px;
+}
+
+
+.btnShop{
+    margin-right: 185px;
+    font-family: Genshin;
+    font-size: large;
+    color: white;
+    background-color: rgb(255, 103, 121);
+    border: none;
+    border-radius: 38px;
+    padding: 25px 35px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 123, 160);
+    color: black;
+}
+
+
+.divider{
+    border: none;
+    height: 2px;
+    margin-top: 70px;
+    background: linear-gradient(to right, transparent, #ff4d6d, transparent);
+}
+
+
+
+.div3{
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    color: white;
+    font-family: Genshin;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+
+.img2{
+    width: 60px;
+}
+
+
+.alldiv3{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+.divider2{
+    border: none;
+    height: 2px;
+    margin-top: 40px;
+    background: linear-gradient(to right, transparent, #ff4d6d, transparent);
+}
+
+h4{
+    margin-left: 70px;
+    margin-top: 50px;
+    color: white;
+    font-family: Genshin;
+    font-size: 35px;
+}
+
+.CosImg{
+    width: 300px;
+}
+
+.div4{
+    color: white;
+    font-family: Genshin;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    border-image-source: linear-gradient(to right, #ff4d6d, transparent);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 10px 10px rgba(220, 72, 89, 0.162);
+    transition: ease-in-out 3s;
+}
+
+.div4:hover{
+    color: rgb(255, 123, 160);
+}
+
+.subdiv4{
+    padding: 10px;
+}
+
+.money{
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.btndeets{
+    font-family: Genshin;
+    color: white;
+    background-color: rgb(255, 103, 121);
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 40px;
+    transition: ease-in-out 0.3s;
+    border: none;
+    display: block;
+    margin: 5px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btndeets:hover{
+    background-color: rgb(255, 123, 160);
+    color: black;
+}
+
+.alldiv4{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+h5{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Genshin;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.divrating{
+    display: flex;
+    justify-content: center;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Genshin;
+}
+
+.revs{
+    width: 400px;
+}
+
+.Profile{
+    width: 200px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: rgb(255, 103, 121);
+    font-family: Genshin;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.211);
+    text-align: center;
+}
+
+.opinion{
+    font-family: Genshin;
+    color: white;
+    text-align: center;
+}
+
+.allrevs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+
+.ending{
+color: white;
+align-items: center;
+display: flex;
+justify-content: space-between;
+margin: 70px;
+}
+
+.end{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: Genshin;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.275);
+}
+
+.Bye{
+    margin-right: 110px;
+    border-radius: 30px;
+    box-shadow: 10px 15px 20px 10px rgba(220, 72, 89, 0.214);
+}
+
+.endbtn{
+     font-family: Genshin;
+    font-size: large;
+    color: white;
+    background-color: rgb(255, 103, 121);
+    border: none;
+    border-radius: 38px;
+    padding: 25px 35px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.endbtn:hover{
+    background-color: rgb(255, 123, 160);
+    color: black;
+}
+
+.subdivend1{
+    margin-left: 70px;
+}
+
+.sale{
+    color: white;
+    font-family: Genshin;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.555)
+}
+
+.subsale{
+    color: white;
+    font-family: Genshin;
+    font-size: 20px;
+    width: 650px;
+}
+
+.footerend{
+    background-color: white;
+    margin-top: 80px;
+    font-family: Genshin;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 10px 30px;
+}
+
+.footleft{
+ display: flex;
+}
+
+.footimg{
+    width: 70px;
+    height: 70px;
+}
+
+.divfootimg{
+    margin-right: 30px;
+}
+
+.footright{
+    text-align: right;
+}
