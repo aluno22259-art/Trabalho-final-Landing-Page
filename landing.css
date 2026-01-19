@@ -181,8 +181,11 @@ transition: ease-in-out 0.3s;
 }
 
 .whyus{
+    color: white;
+    font-family: Genshin;
+    font-size: 35px;
  text-align: center;
- margin-right: 60px;
+ margin-right: 0px;
  margin-bottom: 0px;
 }
 
