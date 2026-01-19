@@ -22,7 +22,7 @@ body{
 
 
 .divicon{
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 li{
@@ -131,7 +131,7 @@ transition: ease-in-out 0.3s;
 }
 
 .subdiv2{
-    padding: 15px 70px 60px 30px;
+    padding: 15px 55px 60px 30px;
     text-align: right;
     font-size: 45px;
     font-family: Genshin;
@@ -180,12 +180,16 @@ transition: ease-in-out 0.3s;
     background: linear-gradient(to right, transparent, #ff4d6d, transparent);
 }
 
-
+.whyus{
+ text-align: center;
+ margin-right: 60px;
+ margin-bottom: 0px;
+}
 
 .div3{
     display: inline-block;
     width: 250px;
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
     color: white;
     font-family: Genshin;
     text-align: center;
